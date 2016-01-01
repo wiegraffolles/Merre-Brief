@@ -1,0 +1,332 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{multicol} % For dual columns
+\usepackage{parskip} % For setting spacing between paragraphs
+\usepackage{titlesec} % For formatting section headings
+\usepackage{hyperref} % For adding bookmarks to the PDF
+\usepackage{bookmark}
+\makeatletter
+\renewcommand\@seccntformat[1]{} % Suppresses section numbering while retaining bookmark data
+\makeatother
+
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Linux Libertine} % Main document font
+\addfontfeature{Ligatures=Historical}
+\newfontfamily\medievalsharp{MedievalSharp}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \medievalsharp\uppercase} % Make all sections centered, with the Medieval Sharp font and all caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{\thepage} % Page numbering for center footer
+\fancyfoot[R]{} % Empty right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+\usepackage{lettrine}
+
+\usepackage{tocloft} % For typesetting the Table of Contents
+
+\renewcommand\cftsecfont{\large} % Set section font in ToC
+\renewcommand\cfttoctitlefont{\centering \medievalsharp\huge\uppercase} % Set ToC title font
+\renewcommand\cftaftertoctitle{\par\addvspace{65pt}} % Set spacing after title
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\setlength{\parskip}{8pt}
+\setlength{\topskip}{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\begingroup
+\medievalsharp
+\huge \uppercase{Merre Campaign Setting Brief} \\ % The assignment title
+\endgroup
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{} % Your name
+
+\date{} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	Body Text
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
+
+\pagebreak
+
+\section{Background}
+
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+
+%\lipsum[2] % Dummy text
+
+%\setlength{\parindent}{1cm} % Default is 15pt.
+
+\begin{multicols}{2} % Begin double column layout
+
+\lettrine[lines=3]{\medievalsharp Y}{ou} are peasants from the village of Firerock in the Duchy of Brightriver, so named for the abundance of Galena ore in its many rocky mountain river valleys. Your village is a poor one, but in times of peace and favourable weather you manage to subsist on a combination of pastoralism in the alpine valleys nearby, and marginal agriculture in the roughly terraced fields around town. In preparation for feasts or in times of scarcity you hunt elk in the many mountain forests above Firerock, but for the most part you avoid them for fear of the creatures that live within their dark expanses.
+
+The village of Firerock is named after the large volcanic rock that sits seemingly out of place in the centre of town, being quite unlike the rocks found throughout the valley. There is a story passed down through the generations that the rock was hurled into the valley in an ancient battle of giants, but no one knows if this is truth or fiction. Your huts are made of mountain rock and crude morter, and topped with thatching that you acquired from lowlanders in exchange for sheep's wool that you managed to secret away from the Duke's tax collectors. 
+
+Three years ago the men of the village were called to battle by your Duke, Aedelmaer II, to do battle against his ancient foes - the Riverland Greyoaks. Leaving the mountain valley of Firerock seemed to you a great adventure at the time, and you were dazzled by the assembly of men of various towns gathered at the Duke's stronghold in preparation for war. There you were given basic training in the ways of war, and then went on to fight in a hot summer campaign against the Riverlanders. The open river valley lowlands were uncomfortable expanses to ones born in the deep mountain valleys of Brightriver, but you managed to adapt to the new terrain in time, and fought admirably against the Greyoak forces. As a reward Aedelmaer granted you a tapestry depicting the great Firerock of your village and the opportunity to pick a weapon each from his armoury. Since those days of glory you have returned to the seasonal rhythms of village life, but a grim occurrence has jolted you once again out of complacency...
+
+\end{multicols}
+
+\pagebreak
+
+\section{Classes}
+
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+
+\begin{multicols}{2} % Begin double column layout
+
+\subsection{Bards}
+
+\lettrine[lines=2]{\medievalsharp B}{ards} are fairly common in Merre, especially among the travelling halfling merchant clans who spread news and song across the land in their travels. They can also be found employed in the courts and taverns of Merre, and some make their living playing religious music in shrines and festivals meant to please the gods. However unlike in other settings, the bards of Merre rarely use magic. This is not because of some inherent aversion to its use, but instead for the same reasons that Wizards are so uncommon, the reliance of wizardry upon the use of the rare and costly substance known as ``albedo.'' On the other hand, in the absence of commonly used magic, Bards' powerful musical abilities are all the more valued and respected. 
+
+\textit{Bards are able to learn magic as per the rules in the PHB, but they must cast a spell at least twice a month in order to continue progressing in their knowledge of magic. If they do not, their caster level does not advance as usual but instead remains stagnant. Therefore a bard whose background suggests that they would know how to cast magic may use their cantrips and 1st level magic (providing they have sufficent albedo) but if they do not regularly cast magic they will not obtain their 2nd level spells when they reach level 2. Bards' use of albedo follows the same rules as that of wizards (See below). Bards may use their musical skills as per the description in the PHB without any use of albedo.}
+
+\subsection{Druids}
+
+\lettrine[lines=2]{\medievalsharp D}{ruids} are most commonly found among the elven elders who lead their people in worship of The Great Root, but they are also found in the wilds of Merre, where they live as hermits, or among the Orcish and humans of the west and south of Merre, where they act as the shamans of their tribes.
+
+\subsection{Wizards}
+
+\lettrine[lines=2]{\medievalsharp W}{izards} are very rare in the lands of Merre because of their reliance on the mysterious substance known as ``albedo,'' purchased from the Dragonborn merchants of the land of Nynh, located far across the Serpent Sea. They are therefore held in awe by commonfolk, and even by large parts of the nobility. Because of the expense of both obtaining albedo and of undergoing initiation in the mysteries of magic, wizards come almost entirely from the nobility, with a handful of scions of merchant families being the rare exception. Nobles or very wealthy merchants will patronize a wizard as a display of largess, but they also rely upon their rare talents to provide an advantage in trade and politics. Over time a wizard is likely to form a dependence upon albedo, and their fear of the effects of its absence can make them more loyal to their patrons than they might otherwise be.
+
+\textit{Albedo is considered a material component in all wizard spellcasting. The wizard may consume an amount of albedo in advance of combat (Ten minutes or less) in order to remove the need to handle it during combat, or they may hold it in their hand while casting, whereupon it will be consumed through their skin. \textbf{A 0th - 3rd level spell requires roughly 5 ml of albedo, a 4th - 6th level spell requires 10 ml and a 7th - 9th level spell requires 15 ml of albedo to cast.} Wizards will often portion powdered albedo into separate pouches so as to afford easy access and to avoid wasting the precious substance.}
+
+\subsection{Sorcerers}
+
+\lettrine[lines=2]{\medievalsharp S}{orcerers} are even more rare than Wizards in Merre. Only Dragonborn can become sorcerers, and they are known as ``purescales.'' They often achieve high ranks in Dragonborn society because of this distinction, but some may occasionally venture across the Serpent Sea, either by choice, or because of exile. Because of their ability to cast spells without reliance upon albedo or any other power, purescales are viewed almost as demigods among the races of Merre. Purescales may therefore seek to hide their talents while travelling to avoid unwanted attention and the attendant complications.
+
+\subsection{Warlocks}
+
+\lettrine[lines=2]{\medievalsharp W}{arlocks} are almost as rare as wizards, but this rarity is not due to any reliance upon albedo. Warlocks draw their power from pacts with the beings who inhabit the stars. The motives of the Stellar Princes for bestowing their favours are often inscrutible, but the majority of warlocks tend to come from the ranks of astrologers, who are said to attract the attention of the Stellar Princes due to their intense focus upon the movements and influences of the stars. However there is no necessary connection between astrological training and the use of the Stellar Princes' gifts. The young shepard gazing up into the brilliant night sky after a day's work, or the sailor focused intently on the stars as a guide for navigation may also happen to make contact with them and receive their gifts. 
+
+Because of their independence from the largess of terrestrial powers, warlocks tend to view wizards with scorn, but they are also viewed with suspicion by others because of the inscrutible nature of their pact with the Stellar Princes. Unlike wizards, they therefore tend not to find a permanent place in the great institutions of Merre, instead travelling where their stellar patron compels them and offering their services discreetly to those who might need them, but fear any public association with a warlock.
+
+\textit{Warlocks may make contact with their patron only beneath a night sky. In order to make contact the warlock rolls a Wisdom(Insight) check. \textbf{On a clear night the check is of medium difficulty (DC 15), while on a cloudy night it is hard (DC 20)}. The Warlock must make contact with their patron at least once a month or suffer a -1 Wisdom penalty, which increases by 1 for every week they do not make contact. The warlock feels increasingly compelled to make contact and \textbf{for every week over two months they fail to do so they must make a hard Wisdom check (DC 20) or go insane}. For rules purposes Stellar Princes are otherwise treated as Great Old Ones as found in the PHB.}
+
+\end{multicols}
+
+\pagebreak
+
+\section{Races}
+
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+
+\begin{multicols}{2} % Begin double column layout
+
+\subsection{Dwarves}
+
+\lettrine[lines=2]{\medievalsharp D}{warves} are a race unlike any other in Merre. Most notably they are not creatures of flesh and blood, but instead of metal and stone. Some scholars suppose that they are a form of golem, but their undeniable intelligence and ability to reproduce make any such comparison imperfect. In a land where magic is a rarity, a race whose very being is imbued with magic are naturally held in awe. The Dwarves live in vast underground holdings carved out from the earth over centuries of tireless labour, but they were thought a myth until roughly a century ago, when they emerged from over a millennium's subterrean seclusion. At the time of their reemergence, they occupied and renovated their ancient holdings across the mountain ranges of the land, and sent emissaries to various courts to inquire about goings-on upon the surface, but they remain very rare in the countries of Merre.
+
+\subsubsection{Characteristics}
+
+While the Dwarves are made of metal and stone, they do not exhibit the awkward motions of golems, but instead move with the grace and fluidity of flesh and blood creatures. They are also capable of speech and writing, although their mouths do not move like those of other races when speaking. Dwarves typically stand around 5 ft in height, but the reason for this short stature is unknown. Being creatures of stone and metal, Dwarves are tremendously heavy, their weight varying according to their material composition but averaging around a ton. Despite this incredible weight, Dwarves are capable of jumping short distances because of their tremendous strength. They can also run at a slightly slower pace than a human, but as can easily be imagined, they are almost totally incapable of moving silently. Dwarves do not require sleep or rest from work, although they do observe a day of rest each week for communion and meditation.
+
+\subsubsection{Lifecycle}
+
+The exact particulars of the Dwarven lifecycle are unknown, but some points are clear. Dwarves are asexual, although some races tend to view them as masculine. They reproduce by way of crafting their offspring, and this seems to be the reason for the Dwarven obsession with mining and metallurgy. It is not well understood why the Dwarves have not multiplied countlessly given this ability to build offspring and their capacity for tireless labour, but scholars assume there must be some limiting factor that keeps Dwarven numbers as small as they are. Some claim to have met ``elderly'' Dwarves who exhibited less fluid movements, but it is not known what the limit of a Dwarven lifespan is, although it is assumed to be even longer than that of Gnomes.
+
+\subsubsection{Society}
+
+Despite only recently being rediscovered, Dwarven society is much better understood than that of the Dragonborn. The Dwarves, while reclusive, are not nearly as suspicious of outsiders, and have on occasion shared information about their ways with the other races of Merre. Dwarven society is utterly egalitarian, with all Dwarves being asexual, and no priority being assigned to age. The Dwarves hold no reverence for private property, with all wealth being communally shared, and each Dwarf holding only a small collection of personal property to which they have become attached over the centuries. All important decisions in Dwarven society are made in communal discussion conducted in a sophisticated form of debate, using the strange Dwarven tongue, which typically may take weeks to resolve but in times of crisis can be resolved in a matter of hours. In times of war, leaders are selected by lottery with each Dwarf assuming the duties of their rank as though they had been trained to do so. Finally, the Dwarves are universally irreligious, with even those Dwarves who acknowledge the existence of the gods refusing to assign them any particular importance in the grand scheme of things.
+
+Because of the Dwarves' formidable powers and fairminded disposition, refugees from across Merre have sought refuge at the feet of their mountain fortresses. Many of these refugees have come to hold the Dwarves in reverance, and have gone so far as to learn the rudiments of the Dwarves tongue and try to model their own society after that of the Dwarves. The Dwarves have not shown any sign of approving of this practice of mimicry, but they have also not told the refugee communities to leave, and this has been met with considerable consternation on the part of the Human lords of Merre, fearful of losing control of their peasantry.
+
+\textit{Dwarves \textbf{are not a playable race in the Merre setting}, for rules purposes when creating NPCs, all Dwarves start with a Strength bonus of 4, a Constitution bonus of 6, and a Wisdom bonus of 2. They are immune to disease and do not require rest.}
+
+\textit{Dwarves are typically Monks, and their unarmed strike base damage begins at 1d8+1 damage, increasing to 1d10+1 at level 17.}
+
+\subsection*{Elves}
+
+\lettrine[lines=2]{\medievalsharp E}{lves} occupy a strange place between the flora and fauna of Merre. They are humanoid in form, but are in fact a moving, talking, and thinking form of plant. The scholars of Merre have since ancient times been engaged in endless (and apparently fruitless) debates over whether or not they should be classifed as sentient humanoids. This ambiguity is often used by townsfolk and members of the upper classes to discriminate against Elves, but the peasantry of Merre have a strong bond with the Elves for very practical reasons, and they can therefore be found throughout the villages of the land.
+
+\subsubsection{Lifecycle}
+
+In many ways the Elves are alien to the other races, but they have enough of a connection to remain a part of society. Their lifecycle is quite unlike that of mammals or reptiles, beginning with the sprouting of a pollinated seed from the earth. Elven seeds can lie dormant in the soil for decades before sprouting, giving elves a far less urgent perspective on the cycle of life than the other sentient races. Infant elves gestate in a bulbous form within the soil, with only a small portion of their body sprouting above ground and offering leaves up to the sun in order to gain the energy they need to mature. Upon reaching the stage of childhood an elf's body begins to differentiate into different limbs, and eventually they retract their roots from the ground, bursting up from the earth and taking the first steps of their life. From that day on elves gain their nutrients from the soil at night, when they lay down upon the ground and take root until the next morning, when they rise once again, following the sun throughout the day to gain the energy they need. Elves therefore do not require any food to survive, and are incapable of ingesting solid food through their mouths, which instead serve a different purpose.
+
+Elves reproduce sexually, and are divided into males and females like most other sentient races. Roughly twenty years after their birth elves are compelled by instinct to gather into a great collectivity with other elves of their age (called a \textit{bloom}). The location of a bloom is not decided consciously by the members, and can occur in places that are extremely inconvenient for the other races of Merre, especially in cities. Once a bloom has gathered the members put down roots while standing, and the female elves produce large brilliant flowers from their mouths. The male elves then vomit pollen explosively into the air, fertilizing the females (and covering the surrounding area in excess pollen). Scholars suppose that the pollen may have some magical properties as it also causes a massive sudden explosion of growth in the surrounding fauna. The combination of pollen and overgrowth can have massively disruptive effects on city life, and so attempts are made to keep elves out of cities by townsfolk. However in the agricultural countryside this explosion in growth can yield a bumper crop, and the Elves are accordingly well liked by peasants (At least those of them without pollen allergies). Female elves will go on to deposit their seeds into the soil if they are able, but for both males and females reproduction is extremely taxing and often results in death. Those elves who survive reproduction are called elders, and take responsibility for rearing the elven young and carrying on local traditions. Elders may live up to a hundred years in age, but they will never again reproduce.
+
+Because of the indiscriminate nature of elven insemination, elves do not form couples, and they do not experience anything like the courtship rituals of other sentient species. If there is any kind of mate selection that occurs among elves, it occurs on the instinctual level when the young elves are called to a bloom. This however is not well understood by scholars, or by elves themselves, who experience the call to bloom as a violent urge in their otherwise placid lives. Therefore young elves are reared by whatever community of elves they happen to find nearby their birthplace. Upon death, elves are usually buried in their communities, so that they can provide nutrients for their fellows to grow.
+
+\subsubsection{Characteristics}
+
+Elves possess large, strong, and lithe bodies. They move with a deliberate grace uncommmon to the other races, and are generally of placid temperment. Elves are usually around 6.5 ft in height and weigh slightly over 200 pounds. Their skin is usually green in hue, but some elves differ from this norm and possess dull or brilliant red skin. In some harsher environments elves have evolved barbs on their skin or thicker skin. Over the centuries they have come to develop a symbiotic role with peasant cultivators, who value them not only for their fortuitous powers of fertilization, but also for their strength and reliability. Elves will often help with the planting and harvest, as a cultivated soil helps with their own nutrition and growth. In most villages, a portion of the cultivated land will usually be set aside as an elven sleeping area, called the ``elfland.''
+
+Elven culture centers around slow, droning, yet oddly fluid, dirge-like music that tells the stories of local communities and carries forward inherited knowledge and culture. Some human and halfling bards like to play an accompaniment to this elf music, but it is generally not very popular outside of elven communities.
+
+Elven society is tribal and typically run by local Elven elders, with little importance being assigned to sex and both male and female elves playing leadership roles. The names of Elven children are typically conceived of in a ritual involving call-and-response singing among elders, and so elves are neither patrilineal nor matrilineal in tracing their descent. While elders do play a leadership role in society they also will typically assist in the manual labour performed by the community until well into their 80s. After this time they take on a more sedentary existence and begin preparing for their death.
+
+Elves worship a being they call ``The Great Root,'' which they believe exists deep beneath the surface of Merre and radiates sustenance out to all living beings. Priests of The Great Root do exist, although they are often dual-classed as Druids. The gods of most of the races of Merre do not hold much interest for elves, but they will often participate in festivals dedicated to godesses of the harvest and of nature as a sign of soldarity with their allies of other races.
+
+\textit{For rules purposes, Elves start with a Strength, Dexterity, and Constitution bonus of 1. They suffer a Constitution and Dexterity penalty of 1 while underground out of the reach of the Sun for longer than a day. If Elven PCs are unable to receive sunlight for a week they must make a hard (DC 20) Constitution check or fall into a dormant state until they are returned to sunlight. After being returned to sunlight the elf will return from dormancy within one day's time.}
+
+\textit{If an Elven PC is between the ages of 16 and 20 they must make a medium (DC 15) Wisdom check at the beginning of each month or be compelled to travel to a bloom, with the location being decided by the DM. The PC may make a hard (DC 20) Wisdom check once per day to resist the compulsion to travel to reproduce. After two weeks this increases to a very hard (DC 25) Wisdom check. Once the elf enters into the bloom they must make a very hard (DC 25) Constitution check or die of exhaustion. \textbf{For this reason most Elven PCs should start as elders}. }
+
+\subsection{Halflings}
+
+\lettrine[lines=2]{\medievalsharp H}{alflings} make their living by working as the travelling merchants of Merre. While Humans control the grand merchant empires of the land, the travelling caravans and small town markets are typically run by the halfling clans, who contract with one of the grand merchant houses for a season or a year at a time. While other races may be stronger or more cunning than the Halflings, they have come to dominate the trade routes of the land because of their unique reputation for honesty, and the strong family bonds that allow them to organize their enterprises and work together to defend their caravans. From a human point of view, it may seem strange that halfling clans have not sought to organize their own grand merchant houses and usurp their human employers, but for a halfling the idea of business larger than one's clan is unsound, and vast sums of wealth are more bother than they worth. The narrow horizons and modest ambitions of the halflings have served for the most part to keep them out of the great conflicts of Merre and this suits them very well.
+
+As the most frequent travellers of Merre, halflings are also the main conveyors of news and culture, and along with their cheerful nature this has made them the natural bards of the land. Halfling bards will often stop to inquire with local peasants or townsfolk about local folksong and custom to improve their own art, and news is forever essential to the dealings of halfling clans in avoiding danger and seeking sound business opportunities. Halfling adventurers are typically those halfings who are seized by wanderlust and depart their clan for a time to see more of the world, returning later to their clan with a new and interesting bit of news, a few tall tales, and a trinket to be passed around the caravan campfire a few times for inspection before being sold off at the next town to some acquisitive noble.
+
+\subsubsection{Religion}
+
+One odd characteristic of the halflings of Merre is their strict monotheism. Unlike the more stationary races of Merre, the halflings have no local gods to worship, and almost all of them are believers in Harrenfarren, who they maintain is the true lord of Merre. Harrenfarren is a god of fair dealing, and the halflings will tell anyone willing to listen that he will bring good fortune to those adhere to the virtues of honesty, hard work, and filial piety. When asked why, if Harrenfarren is the true lord of Merre, he has not asserted his dominion over the other gods, halflings will respond that he cannot be bothered with all their bickering and instead helps only those who are willing to listen to the wisdom of his precepts. Halfling worship typically consists of homilies given by clan bards, based on the communal reading of sacred halfling books of aphoristic knowledge, which are generally accompanied by much nodding of heads and mutterings about ``good sense.'' The worship of Harrenfarren has not achieved much popularity outside the halfling population, perhaps because its aphorisms are seen as simple platitudes, and the forms of worship that surround his cult lack the mystery and majesty that inspire devotion among the other races of Merre. This does not disturb the halflings, as they find theological debates to be most disagreeable.
+
+\textit{For rules purposes, all halflings of Merre count as Lightfoot Halflings, as found in the PHB.}
+
+\subsection{Humans}
+
+\lettrine[lines=2]{\medievalsharp H}{umans} are the dominant race of Merre, but also the most divided. After the collapse of the Grans Imperium a millennium ago, provincial governors began to declare themselves independent kings and lords. This inaugurated an age of ongoing low-level warfare that has continued without end until this day, with its only result being the consolidation of some of these minor principalities into larger states over time. Humans are notable among the races of Merre for their rigidly hierarchical organization according to birth, their vitality and adaptability, their fecundity, and their ruthlessness in pursuing their political ends. The elves, halflings, and gnomes have found way to fit into and around human life, partially because they have found ways to thrive, and partially because they have had no other choice in the face of the human determination to subjugate every individual and group under a sovereign lord. The only major races to escape living under a human ruler are the Dwarves for their mysterious power, the Dragonborn for their isolation, and the Orcs for their exceptional ferocity in battle.
+
+This is not to say that the majority of humans are conquerors born, in fact they display a staggering diversity of personality types, and the human peasantry is generally of a placid disposition; but the ability of Human rulers to bend their subjects to their sovereign will and use them as a force for conquest is, more than anything else, what has seen human dominion expand across Merre over the centuries.
+
+The vast majority of Merrish humans are peasants, with a small middle layer of artisans and merchants making up the middle stratum of society, and a minority of nobles inhabiting the highest layer. Human adventurers exist somewhat outside this organzational structure, finding ways to live in its margins out of want or necessity. A peasant who has lost their land may turn to adventuring out of desperation, or a young knight may seek a life of adventure inspired by the tales they heard in their childhood. The backgrounds of human adventurers are many.
+
+The humans of North Grans are typically black or olive skinned complexion, while those of the South are of fairer skin.
+
+\subsection{Dragonborn}
+
+\lettrine[lines=2]{\medievalsharp D}{ragonborn} are a race with great influence in the affairs of Merre, but one that remains a mystery to its inhabitants. Their merchant fleets carry the precious substance \textit{albedo} across the Serpant Sea to the port towns of Eastern Merre, where they offer it for purchase at great expense. While they may make some rare exceptions, the Dragonborn will typically only trade albedo in exchange for precious metals, usually in the form of ignots. The uses to which they put these vast amounts of metal are unknown. Given the unfaltering demand for the substance, it is a rare occasion indeed when their fleets do not return home low in the water, weighed down by their annual haul. While this makes the Dragonborn fleets slow and unmaneuverable, they are rarely attacked by pirates or privateers because of fear of an embargo on albedo, and because of the fierce reputation of the Dragonborn themselves. Every inhabitant of the Serpant Sea coast knows the story of the Merchant Lord Allant, whose city of Lowport was reduced to ashes in retailation for his acts of piracy against the Dragonborn fleets. To this day no one has dared to rebuild Lowport for fear that the Dragonborn might take offence.
+
+In their business dealings the Dragonborn are utterly inscrutable. Even the wisest scholars of Merre have only a rudimentary understanding of the Draconic tongue which they use to communicate with one another, and their alien facial expressions are difficult for even a shrewd trader to read. Dragonborn do not socialise with the inhabitants of the ports they visit, and accordingly almost nothing is known about their homeland across the sea. Those rare dragonborn who choose to adventure in the lands of Merre out of curiosity, or because of exile may become loyal allies to their Merrish companions, but even they are unlikely to speak of their homeland in anything other than the broadest terms. The structure of Dragonborn society, and their forms of worship remain the object of nothing more than the wildest speculation.
+
+\subsection{Gnomes}
+
+\lettrine[lines=2]{\medievalsharp G}{nomes} of Merre are typically citydwellers, inhabiting distinct gnomish wards of town where members of other races will come seeking their services and wares. Gnomes are known throughout the land for their exceptional craftsmanship and engineering skills, although their work is often held by the more dour to be overly whismsical and garish. Gnomes also are also naturally talented wizards, and it is not uncommon for a wealthy gnomish community to pool together its resources to maintain a few wizards in its employ to work as enchanters, further enhancing the quality of their crafts. Despite their undeniable talents, it is rare for a human court to employ gnomish wizards, as their flighty characters are thought to make them too unreliable to perform such an important role of state. This is not to say that gnomes are rarely found in the keeps of Merre though, as their natural curiosity, intelligence, and facility with children make them ideal tutors for young nobles. They also often achieve high rank in the academies of Merre over their long lives.
+
+There are not many settlements in Merre where gnomes form the majority of the population, as they lack the constancy and strength of arms to defend themselves for long, but the abandoned Dwarven fortress of Morgan's Deep has been occupied by a gathering of gnomish clans for over a century now. Its remote location and fearsome defences have allowed the gnomes to hold it against invading human and monstrous forces, and over the decades of its inhabitation the Gnomes have managed to transform its austere dwarven architecture into the more flowing and baroquely decorated forms of their liking. Its solid foundations have also proved impervious to even the most ill-advised of the gnomes many experiments.  
+
+\textit{For rules purposes, all gnomes of Merre count as Rock Gnomes, as found in the PHB.}
+
+\subsection{Half-Orcs}
+
+\lettrine[lines=2]{\medievalsharp O}{rcs} mainly inhabit the windswept western steppes of Merre and the harsh wilds of the far South. A combination of harsh environments and orcish ferocity have kept human civilzation at bay in these regions for centuries. Even the armies of the Grans Imperium ventured only cautiously into them in brief punitive expeditions designed to keep the Orcs at bay, after which they quickly retreated to their forts in the more civilized borderlands. Those humans who do inhabit the wild West and South are typically nomads, and have a long history of interbreeding with the orcish tribes, both in times of peace and those of war. In a land where endurance and martial prowess are of paramount importance, orcish heritage is an undeniable boon, and Half-Orcs often achieve prominence in both human and orcish tribes.
+
+In the civilized lands of Merre the strange appearance, short temper, and ferocity of half-orcs make them far less welcome. They may find employ as mercenaries, guards, or foremen in some of the rougher mining camps of the land, but half-orcs are shut out of the more respectible castes of civilized Merre. Even the peasantry is hesitant to accept a half-orc among their number, fearing what their ill moods might do to their tightly knit communities. In spite of these formidable obstacles, half-orcs are not exceptionally rare in Merre, as there is always a demand for their martial strength. Especially in times of chaos, half-orc adventurers have achieved great deeds in the civilized lands, and there are more than a few noble houses whose distant ancestors are said to be conquering half-orc heroes (although this is not mentioned in polite conversation). 
+
+\subsection{Tieflings}
+
+\lettrine[lines=2]{\medievalsharp T}{ieflings} are the descendents of demons, and their existence is anathema to the Cult of Or. Despite the cult's decline, tieflings are still barred from holding prominent social positions of any kind out of respect for the tenants of Or. Accordingly, tieflings live on the fringes of society. While many are awed by their innate spellcasting abilities, this only makes them all the more feared and hated, especially given their dark and terrifying nature. 
+
+Because of the social stigma they share, tieflings are often fast friends with Half-Orcs, whose ferocious nature makes them less afraid of whatever demonic threat tieflings might pose. While they do not have any religious motive to dislike them, Halfling and Gnomes still tend to view Tieflings with suspicion, seeing them as overly wild and alien. Elves do not shun them actively, but they have little reason to deal with race not tied to the land. 
+
+Some tieflings flee the prejudices of society altogether and choose to take up the life of a druid in the wilds of Merre, finding companionship in the world of beasts. Still others find a kind of standing by rising in the ranks of a demon cult, where their heritage is respected rather than feared. In recent years some tieflings have sought refuge among the Dwarves, who are indifferent to their demonic heritage. In the unhappy life of a tiefling, indifference is a welcome respite.
+
+\end{multicols}
+
+\pagebreak
+
+\section{Religion}
+
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+
+\begin{multicols}{2} % Begin double column layout
+
+\subsection{The Gods}
+
+\lettrine[lines=2]{\medievalsharp M}{ost} inhabitants of Merre are polytheists, worshipping at traditional shrines to local gods, or worshipping according to a god's reputation when travelling. The religion of Merre is a confusion of gods and goddesses who vary from shrine to shrine, and locality to locality. From one town to the next two gods may have very similar characteristics but are claimed to be different personages. Priests and scholars fiercely debate whether these gods are different aspects of a smaller number of gods or if they are aspects of one god, or if they are different altogether, but this does not matter much to worshipers, who are interested primarily in what the gods are reputed to \textit{do} and what festivals they preside over. Gods of the harvest or fertility, or love, or natural disasters are worshipped because of their power over worldly affairs, and it is mainly the priesthood who concern themselves with the particulars of their divine biography.
+
+Most cults in Merre originate from the ancestral cults of the aristocracy, and the high priesthood are typically drawn from the ranks of these aristocratic families. Shrine musicians, dancers, and servants are typically of more common stock. Outside of these established cults are those of folk religion, whose priesthood, if any exists at all, are typically comprised of ascetics living in the wild, who occasionally descend into civilization to perform holy rites. Some of these holy men may be druids instead of priests.
+
+\subsection{The Imperial Cults}
+
+\lettrine[lines=2]{\medievalsharp O}{ut} of the chaotic mass of gods and goddesses worshipped across Merre, only those cults associated with the old Imperial families of the Grans Imperium are so widespread as to be of particular note. They are covered briefly below.
+
+\subsubsection{Alera}
+
+Alera is a goddess of love. She is best known for the story of how she was courted by Errif, god of justice, and Bled, god of war. She let them court her for 10,000 years, until out of desperation they appealed to her father Or to make her decide which to marry. Or commanded her to decide by nightfall which to marry, and out of spite she cut herself in half rather than decide. Errif and Bled then came before Or carrying her corpse, and wept a sea of tears while they beseeched him to restore her to life. 
+
+Or went to his brother Sarron, king of hell, and asked him to return her spirit from his land. Unfortunately Sarron had been so taken with the beauty of her soul that he had installed it in a masterfully crafted golden statue and taken her for his own bride. This form of Alera is known as Alera-Gravda, and is worshipped by painters and sculptors as the ideal work of artifice. Sarron refused his brother's request and told him that she would not return from the land of the dead. Or flew into a rage at Sarron's defiance and attacked Sarron, beginning a battle that lasted another 10,000 years and shook the earth and heavens. Finally Or bested Sarron and his armies, and tore Sarron's heart from his chest. With the power of Sarron's heart in hand, Or smote the golden statue of Alera and restored her soul to the world of the living. He then used the last of Sarron's power to split her soul in twain and out of the two halves of her corpse created wives for both Errif and Bled. 
+
+Errif's wife is known as Alera-Eff, goddess of chastity, and Bled's wife is known as Alera-Olea, goddess of lust. Errif conceived no children by his wife, but Bled conceived one son by Alera-Olea, who was none other than Sarron reborn. The reborn child Sarron is known as Isher, and is the god of mischief, so known because before maturing and returning to his home in hell he spent five millennia tormenting his father and grandfather with tricks to punish them for his earlier murder. Temples to Alera typically depict her in both her aspects as Alera-Eff and Alera-Olea as statues staring down at the worshipper. Some temples also depict her in her unified aspect or as Alera-Gravda, but this is less common.
+
+\subsubsection{Bled}
+
+Bled is a god of war. He is typically depicted as a muscular man, snarling and riding a war chariot constructed from the bones of the dead, carrying an axe in one hand and a scepter in the other. Bled is usually adorned with the pelt of a bear or tiger, and it is typical for warriors to give a portion of their spoils of war to his temple as a form of thanksgiving for victory in battle. Stories of Bled usually describe him as bloodthirsty and hotheaded, but also as a cunning and decisive commander in the gods' battles against the demons. He is often undone in the stories by his son Isher, the trickster god. Bled's relationship with his wife Alera-Olea is also believed to be a stormy one. It is said that upon their marriage she copulated with him for 500 years, draining his energy and causing him to suffer a rare defeat at the hands of the demons. Bled then went into exile to regain his powers and embarked on a thousand year campaign of conquest upon his return. Throwing himself into this bloody slaughter, Bled realized that he preferred the thrill of battle to his wife's charms after all and thereafter refused to visit her bed. Some scholars suspect that this was in fact a ploy of Isher to spoil Bled's marriage in revenge for the seizure of his wife. The cult of Bled enjoys a certain degree of popularity among the Orcs, although the other Imperial cults do not.
+
+\subsubsection{Errif}
+
+Errif is a god of justice. He is typically depicted as a bearded old man clad in robes, holding a scepter in one hand and scales in the other. On his shoulder is perched an owl who holds a tremendously long scroll of laws in its beak. Errif is worshipped by lawmakers and enforcers of the law. His temples typically double as the professional associations of lawyers, and he is often appealed to by those seeking justice for a wrong inflicted upon them. Although Errif is supposedly the son of Or, his depiction suggests he is as old, if not older than his father. This is a mystery that has long flummoxed scholars. It is said that one of the great calamities of the early Grans Imperium was brought about when the unjustly deposed emperor Gunder III appealed to Errif so movingly that he intervened in mortal affairs and granted Gunder a legion of nigh-invincible owl-headed warriors to restore him to his rightful throne. This began a civil war so vicious that only the intervention of Bled on the opposite side of the war was able to bring peace. From the point of his defeat Errif vowed not to intervene in matters of kingship and succession.
+
+\subsubsection{Or}
+
+Or is the king of the gods. He was the god of the emperors of the Grans Imperium, but is not worshipped by the successor kings out of fear of incurring his wrath. For this reason there are relatively few temples to Or throughout Merre, and those that do exist are well maintained but scarcely used. Or did not create the world, but instead assumed his kingship by slaying Ahvid the world serpent, bathing in its blood, and devouring its heart. It is said that Or found his nameless wife when he gazed into the dying eyes of Ahvid and saw her inside the monster's slit pupil, from which he drew her into the world of Merre. It is also said that the dominion of each of Or's progeny was not assigned by Or, but rather by his wife. Nevertheless Merre's wife was not worshipped as part of the Imperial Cults and her worshippers remain confined to secret mystery cults to this day. 
+
+In addition to being the god of the Grans Emperors, Or is also the god of calendars, and is still worshipped for this purpose on New Year's Day, the only day of the year where his temples are typically used. Or gained this dominion when he travelled far into the distant empyrean and compelled the Stellar Princes to move across the sky in a regular and orderly pattern, making the first calendar possible.
+
+\subsubsection{Sarron}
+
+Sarron is the king of hell and the god of the dead. He is typically not depicted in this aspect, with most temples of Sarron worshipping an ever burning flame upon their altar. Sarron is sometimes depicted in his aspect as Isher, the god of mischief, as a gaunt boy with a mischevious smile. Sarron is Or's brother, and it is a mystery how he gained his dominion without having consumed the blood and flesh of Ahvid the world serpent. His realm is said to be an ashen place, and his cult worships the flame for its ability to turn all things to ash. Sarron is well known for the story of his battle against Or over Alera's soul, but he is otherwise a figure about which little is known, perhaps due to his existence being confined to the realm of the dead.
+
+\subsection{Other Cults of Note}
+
+\lettrine[lines=2]{\medievalsharp W}{hile} the Imperial Cults are the most widely worshipped among humans, there are some other notable cults among the other races of Merre.
+
+\subsubsection{The Great Root}
+
+The Great Root is worshipped as nourisher of all life on Merre. The elves believe that it exists deep within the earth and radiates sustenance out to the beings living on the surface. Elves typically make a prayer of thanksgiving to the Great Root every night before planting their roots to rest. Many also believe that it is the Great Root that directs all elves eventually to a bloom and some elves therefore believe that it has some intent in shaping the course of their lives and of the elven race. Such elves may be more likely to become priests of the Great Root.
+
+\subsubsection{Harrenfarren}
+
+The halflings claim that Harrenfarren is the true lord of Merre. They have made efforts to evangelize his worship, but his non-halfling worshippers remain few. The stories of Harrenfarren relate to the races of Merre but appear to be separate from the stories of the Imperial Cults, as they do not make any mention of the Imperial pantheon. \textit{For more information on Harrenfarren and his worship, see the section Races : Halflings : Religion (p.8).}
+
+\subsection{The Demons}
+
+\lettrine[lines=2]{\medievalsharp T}{he} demons of Merre are something of a mystery. Unlike the gods, their appearance in Merre occurs with some frequency, but it is not know from where they originate. It is said that they are the ancient enemies of the Imperial Pantheon, and in Imperial times they were hunted by the priesthood of Or, but from the tales that scholars have been able to collect it does not appear that they are all malevolent beings, as some of them have been known to help the inhabitants of Merre who encounter them. Demons vary wildly in appearance and attempts to categorize them have been frustrated by the infrequency of their appearances, their variety, and the unreliability of eyewitness accounts. It is widely agreed that demons possess considerable magical power, and some of the divinities worshipped across Merre are belived to be demons who have been deified by the individuals who encountered them. \textit{For rules purposes, Celestials, Fey, and Fiends are considered to be Demons in the Merre setting.}
+
+\subsection{The Stellar Princes}
+
+\lettrine[lines=2]{\medievalsharp T}{he} Stellar Princes are the beings who inhabit the stars in the distant empyrean. They are worshipped by astrologers, who believe that they have power of the stars' hidden influence upon human affairs, and are the direct patrons of warlocks, who draw their power from pacts with them. Despite the rarity of warlocks and the inscrutability of their motives, the Stellar Princes are the divine beings who are in the most frequent contact with the beings of Merre. However their worship is associated with madness, and is considered unsavoury, not least because of the hideously alien appearance that those who have made contact with them have described. The gods are assumed to have a generally human likeness, but the Stellar Princes are beings of an entirely different kind. Some suspect that they interact with the beings of Merre in order to somehow free themselves from Or's thrall, but their true purposes remain unknown.
+
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

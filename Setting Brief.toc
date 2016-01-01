@@ -1,0 +1,36 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Background}{3}{section.1}
+\contentsline {section}{\numberline {2}Classes}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Bards}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Clerics}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Druids}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Wizards}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Sorcerers}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Warlocks}{6}{subsection.2.6}
+\contentsline {section}{\numberline {3}Races}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Dwarves}{7}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Characteristics}{7}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Lifecycle}{7}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Society}{8}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Lifecycle}{8}{subsubsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.5}Characteristics}{9}{subsubsection.3.1.5}
+\contentsline {subsection}{\numberline {3.2}Halflings}{10}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Religion}{11}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Humans}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Dragonborn}{12}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Gnomes}{12}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Half-Orcs}{13}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Tieflings}{14}{subsection.3.7}
+\contentsline {section}{\numberline {4}Religion}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}The Gods}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The Imperial Cults}{15}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Alera}{15}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Bled}{16}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Errif}{16}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Or}{17}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Sarron}{17}{subsubsection.4.2.5}
+\contentsline {subsection}{\numberline {4.3}Other Cults of Note}{17}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}The Great Root}{17}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Harrenfarren}{17}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}The Demons}{18}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}The Stellar Princes}{18}{subsection.4.5}

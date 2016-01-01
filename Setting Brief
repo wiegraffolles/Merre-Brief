@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{multicol}
+
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Linux Libertine} % Main document font
+\addfontfeature{Ligatures=Historical}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{Doshisha University, Faculty of Global and Regional Studies, English Division} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Statement of Intent \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Kyle Alexander Thompson} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	Body Text
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Begin double column layout
+
+\section*{Background}
+
+%\lipsum[2] % Dummy text
+
+%\setlength{\parindent}{1cm} % Default is 15pt.
+
+You are peasants from the village of Firerock in the Duchy of Brightriver, so named for the abundance of Galena ore in its many rocky mountain river valleys. Your village is a poor one, but in times of peace and favourable weather you manage to subsist on a combination of pastoralism in the alpine valleys nearby, and marginal agriculture in the roughly terraced fields around town. In preparation for feasts or in times of scarcity you hunt elk in the many mountain forests above Firerock, but for the most part you avoid them for fear of the creatures that live within their dark expanses.
+
+The village of Firerock is named after the large volcanic rock that sits seemingly out of place in the centre of town, being quite unlike the rocks found throughout the valley. There is a story passed down through the generations that the rock was hurled into the valley in an ancient battle of giants, but no one knows if this is truth or fiction. Your huts are made of mountain rock and crude morter, and topped with thatching that you acquired from lowlanders in exchange for sheep's wool that you managed to secret away from the Duke's tax collectors. 
+
+Three years ago the men of the village were called to battle by your Duke, Aedelmaer II, to do battle against his ancient foes - the Riverland Greyoaks. Leaving the mountain valley of Firerock seemed to you a great adventure at the time, and you were dazzled by the assembly of men of various towns gathered at the Duke's stronghold in preparation for war. There you were given basic training in the ways of war, and then went on to fight in a hot summer campaign against the Riverlanders. The open river valley lowlands were uncomfortable expanses to ones born in the deep mountain valleys of Brightriver, but you managed to adapt to the new terrain in time, and fought admirably against the Greyoak forces. As a reward Aedelmaer granted you a tapestry depicting the great Firerock of your village and the opportunity to pick a weapon each from his armoury. Since those days of glory you have returned to the seasonal rhythms of village life, but a grim occurrence has jolted you once again out of complacency...
+
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
